@@ -1,0 +1,10 @@
+/* Custom styles for the dropdown component */
+.form-group {
+    margin-bottom: 1rem;
+  }
+  
+  .error {
+    color: red;
+    font-size: 0.875rem;
+  }
+  

@@ -2,7 +2,7 @@ import { bootstrapApplication } from '@angular/platform-browser';
 import {CategoryDropdownComponent} from '../src/app/category-dropdown/category-dropdown.component'
 import { Component, OnInit } from '@angular/core';
 import { FormControl, Validators } from '@angular/forms';
-
+import {ReportTemplateDescriptionComponent} from './app/report-template-description/report-template-description.component'
 @Component({
   selector: 'app-root',
   template: `
@@ -18,4 +18,4 @@ export class App {
   
 }
 
-bootstrapApplication(CategoryDropdownComponent);
+bootstrapApplication(ReportTemplateDescriptionComponent);

@@ -1,6 +1,6 @@
 <div class="form-group">
     <label for="categoryDropdown">Category of the report</label>
-    <kendo-dropdownlist
+    <!-- <kendo-dropdownlist
       id="categoryDropdown"
       [data]="categories"
       [value]="selectedCategory"
@@ -10,7 +10,7 @@
       [formControl]="categoryControl"
       class="rt_details_ScheduleType"
     >
-    </kendo-dropdownlist>
+    </kendo-dropdownlist> -->
     <div *ngIf="categoryControl.invalid && (categoryControl.dirty || categoryControl.touched)" class="error">
       <div *ngIf="categoryControl.errors?.required">
         Category is required.
